@@ -25,9 +25,6 @@ function transladeInstruction(letter){
 }
 
 function callApiRequest() {
-  const axios = require('axios');
-  axios.defaults.httpsAgent = new axios.httpsAgent({ rejectUnauthorized: false });
-  // Hacer una petición para un usuario con ID especifico
   axios
     .get(
       "https://3.128.32.6/iot-car-control/back-end/apis/getRegistro.php"
