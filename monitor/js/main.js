@@ -27,7 +27,7 @@ function transladeInstruction(letter){
 function callApiRequest() {
   axios
     .get(
-      "https://3.128.32.6/iot-car-control/back-end/apis/getRegistro.php"
+      "https://3.128.188.72/iot-car-control/back-end/apis/getRegistro.php"
     )
     .then(function (response) {
       // manejar respuesta exitosa
